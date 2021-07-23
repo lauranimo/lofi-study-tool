@@ -1,7 +1,7 @@
 import * as React from "react"
 import Button from './Button'
 
-const TaskHeader = ({title, onAdd, showAddTask}) => {
+const TaskHeader = ({onAdd, showAddTask}) => {
     return (
         <header className= 'header'> 
             <h1>To-Do</h1>
@@ -18,10 +18,5 @@ TaskHeader.propTypes = {
     title: PropTypes.string.isRequired,
 }
  */
-
-// CSS in JS
-// const headingStyle = {
-//     color: 'red', backgroundColor: 'black',
-// }
 
 export default TaskHeader

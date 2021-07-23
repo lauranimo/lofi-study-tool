@@ -2,10 +2,10 @@ import * as React from "react"
 import PropTypes from 'prop-types'
 import { btn } from "./index.css" 
 
-const Button = ({ color, text, onClick }) => {
+const Button = ({ color, text, onClick, minWidth }) => {
     return (
     <button onClick={onClick} 
-    style= {{ backgroundColor: 'rgba(117, 12, 0, 1)'}} 
+    style= {{ backgroundColor: 'rgba(117, 12, 0, 1)', minWidth: { minWidth }}} 
     className='btn'>
         {text}
     </button>

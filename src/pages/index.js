@@ -5,6 +5,9 @@ import Tasks from "../components/Tasks"
 import AddTask from "../components/AddTask"
 import cafeAnimation from "../images/cafe-animation.mp4"
 import Sound from "../components/Sound"
+import Timer from "../components/Timer"
+import DateTime from "../components/DateTIme"
+import Greeting from "../components/Greeting"
 
 function IndexPage () {
   const [showAdd, setShowAdd] = useState(false)
@@ -51,7 +54,12 @@ function IndexPage () {
         </header>
         <Sound></Sound>
       </div>
-      
+      <div className="timer-container">
+        <Timer></Timer>
+      </div>
+      <div className="date-time-container">
+        <Greeting></Greeting>
+      </div>
     </main>
   )
 }

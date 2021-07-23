@@ -16,7 +16,7 @@ body {
   width: 260px;
   margin: 30px auto;
   overflow: auto;
-  min-height: 375px;
+  min-height: 400px;
   font-weight: 400;
   background-color: #FFD2B7;
   padding: 26px 11px 26px 11px;
@@ -24,7 +24,7 @@ body {
   box-shadow: 4px 4px 5px 0 rgba(117, 12, 0, 0.5);
   float: left;
   margin-top: 12em;
-  margin-left: 6em;
+  margin-left: 8em;
 }
 
 .header {
@@ -142,9 +142,9 @@ body {
 #animation {
   position: fixed;
   z-index: -1;
-  width: 37%;
+  width: 35%;
   margin-top: 5em;
-  margin-left: 8em;
+  margin-left: 6.5em;
 }
 
 .sounds-container {
@@ -155,7 +155,7 @@ body {
   border-radius: 16px;
   padding: 26px 11px 26px 11px;
   margin-top: 8em;
-  margin-right: 6em;
+  margin-right: 8em;
   box-shadow: 4px 4px 5px 0 rgba(117, 12, 0, 0.5);
 }
 
@@ -177,7 +177,7 @@ body {
 .sound h3 {
   color: #750C00;
   padding-left: 0.5em;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .volume-control {
@@ -188,7 +188,7 @@ body {
 }
 
 input[type=range] {
-  height: 38px;
+  height: 25px;
   -webkit-appearance: none;
   width: 75%;
   background-color: #FAF5EB;
@@ -200,7 +200,7 @@ input[type=range]:focus {
 
 input[type=range]::-webkit-slider-runnable-track {
   width: 100%;
-  height: 0.5em;
+  height: 0.3em;
   cursor: pointer;
   background: #750C00;
   border-radius: 5px;
@@ -212,7 +212,7 @@ input[type=range]::-webkit-slider-thumb {
   background: #750C00;
   cursor: pointer;
   -webkit-appearance: none;
-  margin-top: -5px;
+  margin-top: -6px;
 }
 input[type=range]:focus::-webkit-slider-runnable-track {
   background: #750C00;
@@ -264,6 +264,65 @@ input[type=range]:focus::-ms-fill-lower {
 }
 input[type=range]:focus::-ms-fill-upper {
   background: #750C00;
+}
+
+.timer-container {
+  float: right;
+  margin-top: 30em;
+  margin-right: -15.8em;
+  background: #FFD2B7;
+  box-shadow: 4px 4px 5px 0 rgba(117, 12, 0, 0.5);
+  border-radius: 16px;
+  padding-top: 1em;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  padding-bottom: 1em;
+}
+
+.timer-display {
+  display: flex;
+  background: #FAF5EB;
+  border-radius: 16px;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+}
+
+.timer-time {
+  font-size: 60px;
+  letter-spacing: -5px;
+  padding-right: 0.13em;
+  padding-left: 0.1em;
+}
+
+.timer-controls {
+  padding-top: 0.5em;
+  padding-left: 0.7em;
+}
+
+.date-time-container {
+  position: fixed;
+  margin-top: 11.25em;
+  margin-left: 10.7em;
+  font-size: 55px;
+  line-height: 70px;
+}
+
+.greetings {
+  text-align: center;
+}
+
+.greetings h6 {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.greetings p {
+  font-size: 25px;
 }
 
 footer {
