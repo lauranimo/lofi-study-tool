@@ -6,7 +6,6 @@ import AddTask from "../components/AddTask"
 import cafeAnimation from "../images/cafe-animation.mp4"
 import Sound from "../components/Sound"
 import Timer from "../components/Timer"
-import DateTime from "../components/DateTIme"
 import Greeting from "../components/Greeting"
 
 function IndexPage () {
