@@ -12,6 +12,7 @@ body {
   color: #750C00;
 }
 
+/* ---------- Task Tracker ---------- */
 .todo-container {
   width: 260px;
   margin: 30px auto;
@@ -139,6 +140,7 @@ body {
   height: 5x;
 }
 
+/* ---------- Animation ---------- */
 #animation {
   position: fixed;
   z-index: -1;
@@ -147,6 +149,7 @@ body {
   margin-left: 6.5em;
 }
 
+/* ---------- Sounds ---------- */
 .sounds-container {
   width: 255px;
   float: right;
@@ -266,6 +269,7 @@ input[type=range]:focus::-ms-fill-upper {
   background: #750C00;
 }
 
+/* ---------- Timer ---------- */
 .timer-container {
   float: right;
   margin-top: 30em;
@@ -298,6 +302,7 @@ input[type=range]:focus::-ms-fill-upper {
   padding-left: 0.1em;
 }
 
+/* ---------- Date + Time ---------- */
 .timer-controls {
   padding-top: 0.5em;
   padding-left: 0.7em;
@@ -325,7 +330,3 @@ input[type=range]:focus::-ms-fill-upper {
   font-size: 25px;
 }
 
-footer {
-  margin-top: 30px;
-  text-align: center;
-}
